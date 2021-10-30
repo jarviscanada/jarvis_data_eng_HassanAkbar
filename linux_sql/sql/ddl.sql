@@ -3,6 +3,7 @@ CREATE TABLE PUBLIC.host_info
   ( 
      id               SERIAL NOT NULL PRIMARY KEY, 
      hostname         VARCHAR NOT NULL, 
+     cpu_number       INTEGER NOT NULL,
      cpu_architecture VARCHAR NOT NULL,
      cpu_model        VARCHAR NOT NULL,
      cpu_mhz          INTEGER NOT NULL,
@@ -25,8 +26,10 @@ CREATE TABLE PUBLIC.host_usage
      cpu_kernel       INTEGER NOT NULL,
      disk_io          INTEGER NOT NULL,
      disk_available   INTEGER NOT NULL
-  );
+     CONSTRAINT fk_host FOREIGN KEY(host_id) REFERENCE PUBLIC.host_info(id)
+
+
+);
 
 INSERT INTO host_usage (timestamp,host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available);
-
 
