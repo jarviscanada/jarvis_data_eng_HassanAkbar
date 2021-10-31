@@ -23,7 +23,7 @@ disk_available=$(df -BM / | awk '{print $4}')
 
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
 
-insert_stmt="INSERT INTO host_info(timestamp, host_id,memory_free, cpu_idle, cpu_kernel, disk_io, disk_available) VALUES('$timestamp', '$host_id', '$memory_free', '$cpu_idle',  '$cpu_kernel', '$disk_io', '$disk_available')";
+insert_stmt="INSERT INTO host_info(timestamp, host_id,memory_free, cpu_idle, cpu_kernel, disk_io, disk_available) VALUES('$timestamp', '$host_id', '$memory_free', '$cpu_idle',  '$cpu_kernel', '$disk_io', '$disk_available');"
 
 export PGPASSWORD=$psql_password 
 
