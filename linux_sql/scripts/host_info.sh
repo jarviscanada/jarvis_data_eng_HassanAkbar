@@ -27,7 +27,7 @@ insert_stmt="INSERT INTO host_info(hostname, cpu_number,cpu_architecture, cpu_mo
 
 export PGPASSWORD=$psql_password 
 #Insert date into a database
-psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+psql -h $psql_host -d $db_name -c "$insert_stmt"
 exit $?
 
 
