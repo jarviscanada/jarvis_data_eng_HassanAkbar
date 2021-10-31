@@ -30,5 +30,3 @@ CREATE TABLE PUBLIC.host_usage
 
 );
 
-INSERT INTO host_usage (timestamp,host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available);
-
