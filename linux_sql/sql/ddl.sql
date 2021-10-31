@@ -12,7 +12,6 @@ CREATE TABLE PUBLIC.host_info
      "timestamp"      TIMESTAMP NOT NULL
   );
 
-INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, L2_cache, total_mem, timestamp);	
 
 
 	
@@ -20,7 +19,7 @@ INSERT INTO host_info (id, hostname, cpu_number, cpu_architecture, cpu_model, cp
 CREATE TABLE PUBLIC.host_usage
   (
      "timestamp"      TIMESTAMP NOT NULL,
-     host_id	      INTEGER NOT NULL FOREIGN KEY,
+     host_id	      SERIAL NOT NULL,
      memory_free      INTEGER NOT NULL,
      cpu_idle         INTEGER NOT NULL,
      cpu_kernel       INTEGER NOT NULL,
