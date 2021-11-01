@@ -24,7 +24,7 @@ CREATE TABLE PUBLIC.host_usage
      cpu_idle         INTEGER NOT NULL,
      cpu_kernel       INTEGER NOT NULL,
      disk_io          INTEGER NOT NULL,
-     disk_available   INTEGER NOT NULL
+     disk_available   BYTEA NOT NULL
      CONSTRAINT fk_host 
 	FOREIGN KEY(host_id) 
 		REFERENCE PUBLIC.host_info(id)
