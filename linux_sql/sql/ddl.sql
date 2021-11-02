@@ -6,15 +6,12 @@ CREATE TABLE PUBLIC.host_info
      cpu_number       INT NOT NULL,
      cpu_architecture VARCHAR NOT NULL,
      cpu_model        INT NOT NULL,
-     cpu_mhz          DOUBLE,
+     cpu_mhz          INT NOT NULL,
      L2_cache         INT NOT NULL,
      total_mem        INT NOT NULL,
      "timestamp"      TIMESTAMP NOT NULL
   );
 
-
-
-	
 
 CREATE TABLE PUBLIC.host_usage
   (
