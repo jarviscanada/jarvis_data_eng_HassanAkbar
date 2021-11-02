@@ -5,8 +5,8 @@ CREATE TABLE PUBLIC.host_info
      hostname         VARCHAR NOT NULL UNIQUE, 
      cpu_number       INT NOT NULL,
      cpu_architecture VARCHAR NOT NULL,
-     cpu_model        INTEGER NOT NULL,
-     cpu_mhz          FLOAT(3),
+     cpu_model        INT NOT NULL,
+     cpu_mhz          INT,
      L2_cache         INT NOT NULL,
      total_mem        INT NOT NULL,
      "timestamp"      TIMESTAMP NOT NULL
