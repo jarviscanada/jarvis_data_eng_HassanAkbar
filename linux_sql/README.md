@@ -19,48 +19,48 @@ bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 
 - Setup Corntab to run host_usage.sh scripts after every one min
 crontab -e
-* * * * * bash /home/[local_path]/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+- `* * * * * bash /home/[local_path]/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log`
 
 # Implemenation
 To implement the project, the monitoring agent program is designed by using Linux command lines, Bash scripts, PostgreSQL, Docker, and IntelliJ IDE. Hardware specs and server usage data of each node are stored in PostgreSQL database. Collected data get tested against  SQL queries to answer some business questions such as calculating the average memory usage in percentage over 1 mins interval for each node. The program code source is managed by Github.
 
 ## Architecture
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1403bb5a-9bc9-4591-9c5e-2ac6ace8b0f8/Untitled.png)
+![Untitled](./assets/Untitled.jpg)
 - Node 1 is the host agent and has a PostgreSQL database setup. It stores hardware specs and usage data of Node 2 and Node 3 by running bash scripts on each node. All three nodes are connected through the switch.
 
 ## Scripts
 Shell script description and usage 
 
-`psql_docker.sh` - The script is used to start PostgreSQL instance using docker 
-`host_info.sh` - The Script is used to run on every node to collect hardware configuration information and insert all collected data to psql database table.
-`host_usage.sh` - The script is used to run on every node to collect hardware usage data and insert all collected data to the psql database table every minute.
-`crontab`- Linux utility that allows tasks to be automatically run in the background at regular intervals by the cron daemon
-`queries.sql`- is used to run the SQL queries on host_agent tables to measure or calculate average memory use and grouping nodes against the number of CPU and total memory
+- `psql_docker.sh` - The script is used to start PostgreSQL instance using docker 
+- `host_info.sh` - The Script is used to run on every node to collect hardware configuration information and insert all collected data to psql database table.
+- `host_usage.sh` - The script is used to run on every node to collect hardware usage data and insert all collected data to the psql database table every minute.
+- `crontab`- Linux utility that allows tasks to be automatically run in the background at regular intervals by the cron daemon
+- `queries.sql`- is used to run the SQL queries on host_agent tables to measure or calculate average memory use and grouping nodes against the number of CPU and total memory
 
 ## Database Modeling
 Database host_agent is consists of two tables called host_info and host_usage. host_info does not change as it is the hardware specs that are constant. host_usage data changes as the usage of node keep on changing after some interval.
 
-- host_info table contains the following data:
+host_info table contains the following data:
 
-`id` - It is a unique value and is a primary key, which auto increment for each node.
-`hostname` - It is the unique value of each node and represents hostname.
-`cpu_number` - It is an integer value and represents the number of cores of each node's CPU.
-`cpu_architecture` - It is a char value and represents the CPU architecture.
-`cpu_model` - It is an integer value and tells CPU model number.
-`cpu_mhz` -  It is a floating value and tells the CPU speed. 
-`L2_cache` - It is an integer value and tells CPU L2 cache size in kb
-`total_mem` - It is an integer value and gives the total space size of hardware of node
-`"timestamp"`-  It is the current date and time in UTC.
+- `id` - It is a unique value and is a primary key, which auto increment for each node.
+- `hostname` - It is the unique value of each node and represents hostname.
+- `cpu_number` - It is an integer value and represents the number of cores of each node's CPU.
+- `cpu_architecture` - It is a char value and represents the CPU architecture.
+- `cpu_model` - It is an integer value and tells CPU model number.
+- `cpu_mhz` -  It is a floating value and tells the CPU speed. 
+- `L2_cache` - It is an integer value and tells CPU L2 cache size in kb
+- `total_mem` - It is an integer value and gives the total space size of hardware of node
+- `"timestamp"`-  It is the current date and time in UTC.
 
-- host_usage table contains the following data:
+host_usage table contains the following data:
 
-`"timestamp"` - It is the current date and time in UTC.
-`host_id`	 - It is the node's id and represents a foreign key.
-`memory_free` - It is the memory space that is available in MB.
-`cpu_idle` - It is the time CPU doing nothing. 
-`cpu_kernel` - It is CPU time running kernel
-`disk_io`  - Disk input/output operations in KB/s
-`disk_available`  - Disk space available in MB
+- `"timestamp"` - It is the current date and time in UTC.
+- `host_id`	 - It is the node's id and represents a foreign key.
+- `memory_free` - It is the memory space that is available in MB.
+- `cpu_idle` - It is the time CPU doing nothing. 
+- `cpu_kernel` - It is CPU time running kernel
+- `disk_io`  - Disk input/output operations in KB/s
+- `disk_available`  - Disk space available in MB
 
 # Test
 Testing is done by running bash scripts on a single machine instead of a Linux cluster. For bash scripts, testing of all functionalities is performed manually.
