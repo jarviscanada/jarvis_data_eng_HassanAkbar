@@ -5,27 +5,27 @@
 The project is to design a host monitoring agent that is used to monitor a Linux cluster of 10 nodes/servers running CentOS 7. The host monitor agent program will collect the hardware specifications and resource usages of each node by running bash scripts. The collected data will be stored in a Docker provisioned PostgreSQL database.
 
 # Quick Start
-- start the psql docker container using psql_docker.sh
-linux_sql/scripts/psql_docker.sh start 
+- Start the psql docker container using psql_docker.sh
+  - `bash linux_sql/scripts/psql_docker.sh start`
 
 - Execute ddl.sql script on the host_agent database against the psql instance
-psql -h psql_host -U psql_user -d db_name -f sql/ddl.sql
+  - `psql -h psql_host -U psql_user -d db_name -f sql/ddl.sql`
 
 - Script to Insert hardware specs data into the DB using host_info.shcl
-bash scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
+  - `bash scripts/host_info.sh psql_host psql_port db_name psql_user psql_password`
 
 - Script to Insert hardware usage data into the DB using host_usage.sh
-bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
+  - `bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password`
 
 - Setup Corntab to run host_usage.sh scripts after every one min
-crontab -e
-- `* * * * * bash /home/[local_path]/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log`
+  - `crontab -e`
+  - `* * * * * bash /home/[local_path]/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log`
 
 # Implemenation
 To implement the project, the monitoring agent program is designed by using Linux command lines, Bash scripts, PostgreSQL, Docker, and IntelliJ IDE. Hardware specs and server usage data of each node are stored in PostgreSQL database. Collected data get tested against  SQL queries to answer some business questions such as calculating the average memory usage in percentage over 1 mins interval for each node. The program code source is managed by Github.
 
 ## Architecture
-![Untitled](./assets/Untitled.jpg)
+![image](https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/blob/feature/psql_docker/linux_sql/Assets/image.png)
 - Node 1 is the host agent and has a PostgreSQL database setup. It stores hardware specs and usage data of Node 2 and Node 3 by running bash scripts on each node. All three nodes are connected through the switch.
 
 ## Scripts
