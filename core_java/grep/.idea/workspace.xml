@@ -38,7 +38,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration name="JavaGrepImp" type="Application" factoryName="Application" temporary="true">
+    <configuration name="JavaGrepImp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.JavaGrepImp" />
       <module name="grep" />
       <option name="PROGRAM_PARAMETERS" value=".*IllegalArgumentException.* ./grep/src /tmp/grep.out" />
@@ -52,11 +52,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.JavaGrepImp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637963159916</updated>
-      <workItem from="1637963170915" duration="8248000" />
+      <workItem from="1637963170915" duration="9326000" />
     </task>
     <servers />
   </component>
