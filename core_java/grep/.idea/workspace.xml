@@ -36,6 +36,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="JavaGrepImp" type="Application" factoryName="Application">
@@ -61,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637963159916</updated>
-      <workItem from="1637963170915" duration="15076000" />
+      <workItem from="1637963170915" duration="15406000" />
     </task>
     <servers />
   </component>
