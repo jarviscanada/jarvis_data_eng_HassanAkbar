@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 import java.util.*;
 
-
 public class JavaGrepImp implements JavaGrep{
 
     final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
@@ -119,7 +118,6 @@ public class JavaGrepImp implements JavaGrep{
     public void setOutFile(String outFile) {
         this.outFile = outFile;
     }
-
 
     public static void main(String[] args) {
         if(args.length != 3){
