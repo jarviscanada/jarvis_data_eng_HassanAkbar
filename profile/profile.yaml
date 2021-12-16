@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_HassanAkba
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Recent software engineer graduate from the McMaster University with fundamental knowledge of data analysis, data mining, data warehousing and data visualization. Seeking to utilize broad educational background with excellent analytical, technical, and programming skills within your workplace.
+summary: Recent software engineer graduate from McMaster University with fundamental knowledge of data analysis, data mining, data warehousing and data visualization. Seeking to utilize broad educational background with excellent analytical, technical, and programming skills within your workplace.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -36,16 +36,16 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Linux nCluster Monitor"
+  - name: "Linux Cluster Monitor"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Implemented a Cluster Monitoring Solution using Bash to collect the hardware specifications of each node and monitor node resource usages. The data will be collected and stored to a PostgreSQL server which runs inside a docker container.
+    description: Implemented a Cluster Monitoring Solution using Bash to collect the hardware specifications of each node and monitor node resource usages. The data will be collected and stored on a PostgreSQL server that runs inside a docker container.
   - name: "Core Java Apps"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/core_java"
     description:
-      - "JDBC App: JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database. 
-      - "Grep App: Application work just like the Linux grep command. The Java Grep Application searching files in the directory, and regex pattern matching with strings within the files. This application includes two different implementations of reading and writing files, one using BuffererReader and FileOutputStream and the other using Lambda and Stream APIs. This application implements Maven as a java tool to streamline the build process.The app was packaged using Maven and saved to Docker Hub as a Docker Image where it can be pulled and run
+      - "JDBC App: JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database."
+      - "Grep App: Application work just like the Linux grep command. The Java Grep Application searches files in the directory, and regex pattern matching with strings within the files. This application includes two different implementations of reading and writing files, one using BuffererReader and FileOutputStream and the other using Lambda and Stream APIs. This application implements Maven as a java tool to streamline the build process. The app was packaged using Maven and saved to Docker Hub as a Docker Image where it can be pulled and run."
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -68,7 +68,7 @@ professional_experience:
     company: "Jarvis"
     duration: "2021-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Working difficult programming challenges to solve with minimal initial directions. We are grouped into agile teams and has been assigned Jarvis scrum masters, product owners, and teach leads to agile teams to facilitate developers. We manage our projects using Git, Github, and GitFlow. "
+    description: "Working difficult programming challenges to solve with minimal initial directions. We are grouped into agile teams and have been assigned Jarvis scrum masters, product owners, and teach leads to agile teams to facilitate developers. We manage our projects using Git, Github, and GitFlow. "
   - title: "Social Media Moderator"
     company: "Majorel"
     duration: "2021-present"
