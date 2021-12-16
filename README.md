@@ -19,8 +19,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HassanAkba
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/core_java)]:
       
-  - JDBC App: JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database.
-  - Grep App: Application work just like the Linux grep command. The Java Grep Application searches files in the directory, and regex pattern matching with strings within the files. This application includes two different implementations of reading and writing files, one using BuffererReader and FileOutputStream and the other using Lambda and Stream APIs. This application implements Maven as a java tool to streamline the build process. The app was packaged using Maven and saved to Docker Hub as a Docker Image where it can be pulled and run.
+  - JDBC App: Implemented a Java Database Connectivity app that manages connecting to a database. Application allow user to perform CRUD operation by using SQL queries and commands, and handling result sets obtained from the database. The application was implemented by using PostgresSQL, Maven, Docker and Java.
+  - Grep App: Grep Application was designed to perform exactly same as Linux grep command. Application searches files in the directory, and regex pattern matching with strings within the files and output the results into separate file. The application was packaged using Maven and saved to Docker Hub as a Docker Image where it can be pulled and run.
 
 
 ## Highlighted Projects
