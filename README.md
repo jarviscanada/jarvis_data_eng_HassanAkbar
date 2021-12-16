@@ -1,64 +1,50 @@
 # Hassan Akbar . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+Recent software engineer graduate from McMaster University with fundamental knowledge of data analysis, data mining, data warehousing and data visualization. Seeking to utilize broad educational background with excellent analytical, technical, and programming skills within your workplace.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, REST APIs, Python
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Google Cloud Platform, HTML, CSS, Power BI, Excel
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** C, C++, Hadoop, Javascript, Spark/Scala
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar](https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/linux_sql)]: Implemented a Cluster Monitoring Solution using Bash to collect the hardware specifications of each node and monitor node resource usages. The data will be collected and stored on a PostgreSQL server that runs inside a docker container.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+  - JDBC App: JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database.
+  - Grep App: Application work just like the Linux grep command. The Java Grep Application searches files in the directory, and regex pattern matching with strings within the files. This application includes two different implementations of reading and writing files, one using BuffererReader and FileOutputStream and the other using Lambda and Stream APIs. This application implements Maven as a java tool to streamline the build process. The app was packaged using Maven and saved to Docker Hub as a Docker Image where it can be pulled and run.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**BI Reporting**: Connecting & shaping data, creating table relationships & data models in Power BI, analyzing data with DAX calculations and visualizing data with Power BI reports.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**ETL Pipelines**: Extracted world bank data set from different sources, transformed data by combining data from different sources, cleaning data sets and bring them together into one table and loaded the results into the database.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Junior Developer, Jarvis (2021-present)**: Working difficult programming challenges to solve with minimal initial directions. We are grouped into agile teams and have been assigned Jarvis scrum masters, product owners, and teach leads to agile teams to facilitate developers. We manage our projects using Git, Github, and GitFlow. 
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Social Media Moderator, Majorel (2021-present)**: Responsible for evaluating online social media or advertising content in conjunction with policy. Participate in meetings to discuss findings and ongoing recommendations. Work with exceptional attention to detail and deliver optimal quality and productivity levels through data analysis.  
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**McMaster University (2019-2021)**, Bachelor in Software Engineering Technology, Computer and Software Engineering
+- GPA: 3.3/4.0
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Conestoga College (2010-2014)**, Advance Diploma in Electronics Engineering Technology, Electrical and Computer Engineering
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Business Management (2021)
+- Vollyball player
+- Fixing electronics devices
+- Business Updates
