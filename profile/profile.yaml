@@ -1,108 +1,91 @@
 # Preferred name (Characters only)
 name: "Hassan Akbar"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: Recent software engineer graduate from the McMaster University with fundamental knowledge of data analysis, data mining, data warehousing and data visualization. Seeking to utilize broad educational background with excellent analytical, technical, and programming skills within your workplace.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Java
+     - Java
     - Linux/Bash
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - REST APIs
+    - Python
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - Google Cloud Platform
+    - HTML
+    - CSS
+    - Power BI
+    - Excel
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - C
+    - C++
+    - Hadoop
+    - Javascript
+    - Spark/Scala
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Cluster Monitor"
-    git_url: "/linux_sql"
+  - name: "Linux nCluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Implemented a Cluster Monitoring Solution using Bash to collect the hardware specifications of each node and monitor node resource usages. The data will be collected and stored to a PostgreSQL server which runs inside a docker container.
   - name: "Core Java Apps"
-    git_url: "/core_java"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_HassanAkbar/tree/master/core_java"
     description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+      - "JDBC App: JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database. 
+      - "Grep App: Application work just like the Linux grep command. The Java Grep Application searching files in the directory, and regex pattern matching with strings within the files. This application includes two different implementations of reading and writing files, one using BuffererReader and FileOutputStream and the other using Lambda and Stream APIs. This application implements Maven as a java tool to streamline the build process.The app was packaged using Maven and saved to Docker Hub as a Docker Image where it can be pulled and run
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "BI Reporting"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    #git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
+    description: Connecting & shaping data, creating table relationships & data models in Power BI, analyzing data with DAX calculations and visualizing data with Power BI reports.   
+  - name: "ETL Pipelines"
     git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
+    description: Extracted world bank data set from different sources, transformed data by combining data from different sources, cleaning data sets and bring them together into one table and loaded the results into the database.
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Junior Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2021-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Working difficult programming challenges to solve with minimal initial directions. We are grouped into agile teams and has been assigned Jarvis scrum masters, product owners, and teach leads to agile teams to facilitate developers. We manage our projects using Git, Github, and GitFlow. "
+  - title: "Social Media Moderator"
+    company: "Majorel"
+    duration: "2021-present"
+    description: "Responsible for evaluating online social media or advertising content in conjunction with policy. Participate in meetings to discuss findings and ongoing recommendations. Work with exceptional attention to detail and deliver optimal quality and productivity levels through data analysis.  "
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "McMaster University"
+    duration: "2019-2021"
+    degree: "Bachelor in Software Engineering Technology"
+    department: "Computer and Software Engineering"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
+      - "GPA: 3.3/4.0"
+  - school_name: "Conestoga College"
+    duration: "2010-2014"
+    degree: "Advance Diploma in Electronics Engineering Technology"
     department: "Electrical and Computer Engineering"
     awards_achievements: 
 
@@ -112,12 +95,9 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "Business Management (2021)"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Vollyball player"
+      - "Fixing electronics devices"
+      - "Business Updates"
