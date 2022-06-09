@@ -63,16 +63,22 @@
   ],
   "professional_experience": [
     {
+      "company": "National Bank of Canada",
+      "description": "Developing automated functional tests using nbc frameworks embedded in continuous testing (CT) in Agile mode. Monitoring QA activities daily including developing and executing tests, managing irregularities, and providing progress report. ",
+      "duration": "2022-present",
+      "title": "QA Automation/Manual"
+    },
+    {
       "company": "Jarvis",
       "description": "Working difficult programming challenges to solve with minimal initial directions. We are grouped into agile teams and have been assigned Jarvis scrum masters, product owners, and teach leads to agile teams to facilitate developers. We manage our projects using Git, Github, and GitFlow. ",
       "duration": "2021-present",
       "title": "Junior Developer"
     },
     {
-      "company": "Majorel",
-      "description": "Responsible for evaluating online social media or advertising content in conjunction with policy. Participate in meetings to discuss findings and ongoing recommendations. Work with exceptional attention to detail and deliver optimal quality and productivity levels through data analysis.  ",
-      "duration": "2021-present",
-      "title": "Social Media Moderator"
+      "company": "Rideon Canada",
+      "description": "Leading activities related to initial data testing phase 1 of RideON app, and monitoring the marketing campaign for the app launch. Planning and maintaining project timelines, deliverables, expenses, and team activities. ",
+      "duration": "2021-2022",
+      "title": "Project Coordinator"
     }
   ],
   "skills": {
@@ -81,14 +87,21 @@
       "HTML",
       "CSS",
       "Power BI",
-      "Excel"
+      "Excel",
+      "Datadog",
+      "Terraform",
+      "Jenkins",
+      "Postman",
+      "AWS"
     ],
     "familiar": [
       "C",
       "C++",
       "Hadoop",
       "Javascript",
-      "Spark/Scala"
+      "Spark/Scala",
+      "SAS",
+      "SoapUI"
     ],
     "proficient": [
       "Java",
@@ -97,8 +110,12 @@
       "Agile/Scrum",
       "Git",
       "REST APIs",
-      "Python"
+      "Selenium",
+      "Manual/Automation testing",
+      "Regression/smoke testing",
+      "Python",
+      "Jira/Confluence"
     ]
   },
-  "summary": "Recent software engineer graduate from McMaster University with fundamental knowledge of data analysis, data mining, data warehousing and data visualization. Seeking to utilize broad educational background with excellent analytical, technical, and programming skills within your workplace."
+  "summary": "Software engineer graduate from McMaster University with fundamental knowledge of software architecture, software requirement and specification, data analysis, data mining, data warehousing and data visualization. Seeking to utilize broad educational background with excellent analytical, technical, and programming skills within your workplace."
 }
